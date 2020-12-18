@@ -1,0 +1,39 @@
+name: tasbeeh
+description: New version of mosabbehat
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  flutter_svg: ^0.17.4
+
+  moor: ^3.1.0
+  moor_ffi: ^0.5.0
+  path_provider: ^1.6.9
+  path: ^1.6.0
+  provider: ^4.1.2
+
+
+dev_dependencies:
+  moor_generator: ^3.1.0
+  build_runner: ^1.10.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/besmele.svg
+
+  fonts:
+    - family: Uthman
+      fonts:
+        - asset: fonts/hafs.otf
